@@ -1,0 +1,688 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>ssl证书 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="letsencrypt.html" />
+    
+    
+    <link rel="prev" href="nginx.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    首页
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">运维</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="docker.html">
+            
+                <a href="docker.html">
+            
+                    
+                    docker
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="docker.html">
+            
+                <a href="docker.html#概念">
+            
+                    
+                    docker概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="docker.html">
+            
+                <a href="docker.html#基础应用">
+            
+                    
+                    docker基础应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="docker.html">
+            
+                <a href="docker.html#常用操作">
+            
+                    
+                    docker常用操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="docker.html">
+            
+                <a href="docker.html#扩展阅读">
+            
+                    
+                    docker扩展阅读
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="nginx.html">
+            
+                <a href="nginx.html">
+            
+                    
+                    Nginx
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="nginx.html">
+            
+                <a href="nginx.html#nginx泛域名解析，实现多个二级域名">
+            
+                    
+                    nginx泛域名解析，实现多个二级域名
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="nginx.html">
+            
+                <a href="nginx.html#nginx反向代理golang">
+            
+                    
+                    nginx反向代理golang
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3" data-path="nginx.html">
+            
+                <a href="nginx.html#扩展阅读">
+            
+                    
+                    nginx扩展阅读
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter active" data-level="4.1" data-path="letsencrypt.html">
+            
+                <a href="letsencrypt.html">
+            
+                    
+                    ssl证书
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="letsencrypt.html">
+            
+                <a href="letsencrypt.html#安装">
+            
+                    
+                    letsencrypt安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="letsencrypt.html">
+            
+                <a href="letsencrypt.html#执行">
+            
+                    
+                    letsencrypt执行
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" data-path="letsencrypt.html">
+            
+                <a href="letsencrypt.html#执行命令">
+            
+                    
+                    letsencrypt执行命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <!--<li>-->
+        <!--<a href="https://www.gitbook.com" target="blank" class="gitbook-link">-->
+            <!--Published with GitBook-->
+        <!--</a>-->
+    <!--</li>-->
+</ul>
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >ssl证书</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="&#x5B89;&#x88C5;">&#x5B89;&#x88C5;</h3>
+<p>git clone <a href="https://links.jianshu.com/go?to=https%3A%2F%2Fgithub.com%2Fletsencrypt%2Fletsencrypt" target="_blank">https://github.com/letsencrypt/letsencrypt</a></p>
+<h3 id="&#x6267;&#x884C;">&#x6267;&#x884C;</h3>
+<pre><code class="lang-bash"><span class="hljs-built_in">cd</span> letsencrypt
+./certbot-auto certonly  <span class="hljs-_">-d</span> *.&#x4F60;&#x7684;&#x57DF;&#x540D; --manual --preferred-challenges dns --server https://acme-v02.api.letsencrypt.org/directory
+</code></pre>
+<p>&#x8FD9;&#x91CC;&#x7528;&#x4E86;&#x6CDB;&#x57DF;&#x540D;&#x8BC1;&#x4E66;</p>
+<h3 id="&#x6267;&#x884C;&#x547D;&#x4EE4;">&#x6267;&#x884C;&#x547D;&#x4EE4;</h3>
+<p>&#x5982;&#x679C;&#x4E0A;&#x9762;&#x62A5;&#x9519;</p>
+<pre><code class="lang-bash">OSError: Command /opt/eff.org/certbot/venv/bin/python2.7 - setuptools pip wheel failed with error code 1
+</code></pre>
+<h3 id="&#x89E3;&#x51B3;&#x95EE;&#x9898;">&#x89E3;&#x51B3;&#x95EE;&#x9898;</h3>
+<pre><code class="lang-bash">&#x5378;&#x8F7D;virtualenv&#xFF1A; pip  uninstall  virtualenv
+
+&#x518D;&#x5B89;&#x88C5;virtualenv &#xFF1A; pip  install  virtualenv==15.1.0
+</code></pre>
+<h3 id="&#x8F93;&#x51FA;">&#x8F93;&#x51FA;</h3>
+<pre><code class="lang-bash">ackage gcc-4.8.5-36.el7_6.2.x86_64 already installed and latest version
+Package augeas-libs-1.4.0-6.el7_6.1.x86_64 already installed and latest version
+Package 1:openssl-1.0.2k-16.el7_6.1.x86_64 already installed and latest version
+Package 1:openssl-devel-1.0.2k-16.el7_6.1.x86_64 already installed and latest version
+Package libffi-devel-3.0.13-18.el7.x86_64 already installed and latest version
+Package redhat-rpm-config-9.1.0-87.el7.centos.noarch already installed and latest version
+Package ca-certificates-2018.2.22-70.0.el7_5.noarch already installed and latest version
+Package python-devel-2.7.5-77.el7_6.x86_64 already installed and latest version
+Package python-virtualenv-15.1.0-2.el7.noarch already installed and latest version
+Package python-tools-2.7.5-77.el7_6.x86_64 already installed and latest version
+Package python2-pip-8.1.2-8.el7.noarch already installed and latest version
+Nothing to <span class="hljs-keyword">do</span>
+Creating virtual environment...
+Installing Python packages...
+Installation succeeded.
+Saving debug <span class="hljs-built_in">log</span> to /var/<span class="hljs-built_in">log</span>/letsencrypt/letsencrypt.log
+Plugins selected: Authenticator manual, Installer None
+Enter email address (used <span class="hljs-keyword">for</span> urgent renewal and security notices) (Enter <span class="hljs-string">&apos;c&apos;</span> to
+cancel): 531833XXX@qq.com
+Please <span class="hljs-built_in">read</span> the Terms of Service at
+https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf. You must
+agree <span class="hljs-keyword">in</span> order to register with the ACME server at
+https://acme-v02.api.letsencrypt.org/directory
+</code></pre>
+<p>&#x662F;&#x5426;&#x901A;&#x7528;&#x534F;&#x8BAE;&#xFF0C;&#x9009;&#x62E9;&#x662F;&#xFF0C;&#x90A3;&#x5C31;&#x662F;&apos;A&apos;</p>
+<pre><code class="lang-bash">A
+Would you be willing to share your email address with the Electronic Frontier
+Foundation, a founding partner of the Let<span class="hljs-string">&apos;s Encrypt project and the non-profit
+organization that develops Certbot? We&apos;</span>d like to send you email about our work
+encrypting the web, EFF news, campaigns, and ways to support digital freedom.
+</code></pre>
+<p>&#x662F;&#x5426;&#x5206;&#x4EAB;&#x4F60;&#x7684;&#x90AE;&#x7BB1;&#xFF0C;&#x5426;</p>
+<pre><code class="lang-bash">N
+NOTE: The IP of this machine will be publicly logged as having requested this
+certificate. If you<span class="hljs-string">&apos;re running certbot in manual mode on a machine that is not
+your server, please ensure you&apos;</span>re okay with that.
+</code></pre>
+<p>&#x8BE2;&#x95EE;&#x662F;&#x5426;&#x5BF9;&#x57DF;&#x540D;&#x548C;&#x673A;&#x5668;&#xFF08;IP&#xFF09;&#x8FDB;&#x884C;&#x7ED1;&#x5B9A;=&gt;&#x9700;&#x8981;&#x540C;&#x610F;</p>
+<pre><code class="lang-bash">Y
+</code></pre>
+<p>&#x9700;&#x8981;&#x6309;&#x7167;&#x8981;&#x6C42;(&#x6307;&#x5B9A;key&#xFF1A;value)&#x5728;dns&#x8BBE;&#x7F6E;&#x4E00;&#x6761;txt&#x8BB0;&#x5F55;&#xFF0C;&#x5728;dns&#x8BBE;&#x7F6E;&#x5B8C;&#x6210;&#x4E4B;&#x524D;&#x4E0D;&#x80FD;&#x56DE;&#x8F66;</p>
+<pre><code class="lang-bash">Please deploy a DNS TXT record under the name
+_acme-challenge.ippnetwork.com with the following value:
+sFT0ouhU4sktQl8_D8XPySBKUnLfmoGe_Ief4Kr7P1I
+Before continuing, verify the record is deployed.
+</code></pre>
+<p>&#x6B64;&#x5904;key&#x8BBE;&#x7F6E;&#x6CE8;&#x610F;&#xFF0C;&#x53BB;&#x6389;&#x57DF;&#x540D;&#x540E;&#x7F00;&#xFF0C;&#x6309;&#x4E0A;&#x65B9;&#x4F8B;&#x5B50;&#xFF0C;key&#x503C;&#x4E3A;_acme-challenge
+&#x56DE;&#x8F66;&#x540E;&#x5C06;&#x4F1A;&#x9A8C;&#x8BC1;&#xFF0C;&#x6210;&#x529F;&#x540E;&#x63D0;&#x793A;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-bash">Press Enter to Continue
+Waiting <span class="hljs-keyword">for</span> verification...
+Cleaning up challenges
+
+IMPORTANT NOTES:
+ - Congratulations! Your certificate and chain have been saved at:
+   /etc/letsencrypt/live/ippnetwork.com/fullchain.pem
+   Your key file has been saved at:
+   /etc/letsencrypt/live/ippnetwork.com/privkey.pem
+   Your cert will expire on 2020-03-02. To obtain a new or tweaked
+   version of this certificate <span class="hljs-keyword">in</span> the future, simply run certbot-auto
+   again. To non-interactively renew *all* of your certificates, run
+   <span class="hljs-string">&quot;certbot-auto renew&quot;</span>
+ - If you like Certbot, please consider supporting our work by:
+
+   Donating to ISRG / Let<span class="hljs-string">&apos;s Encrypt:   https://letsencrypt.org/donate
+   Donating to EFF:                    https://eff.org/donate-le
+</span></code></pre>
+<h3 id="&#x8BC1;&#x4E66;&#x7EED;&#x7B7E;">&#x8BC1;&#x4E66;&#x7EED;&#x7B7E;</h3>
+<p>&#x6CE8;:&#x8BC1;&#x4E66;&#x5728;&#x5230;&#x671F;&#x524D;30&#x5929;&#x624D;&#x4F1A;&#x7EED;&#x7B7E;&#x6210;&#x529F;,&#x4F46;&#x4E3A;&#x4E86;&#x786E;&#x4FDD;&#x8BC1;&#x4E66;&#x5728;&#x8FD0;&#x884C;&#x8FC7;&#x7A0B;&#x4E2D;&#x4E0D;&#x8FC7;&#x671F;,&#x5B98;&#x65B9;&#x5EFA;&#x8BAE;&#x6BCF;&#x5929;&#x81EA;&#x52A8;&#x6267;&#x884C;&#x7EED;&#x7B7E;&#x4E24;&#x6B21;;
+ &#x4F7F;&#x7528;crontab&#x81EA;&#x52A8;&#x7EED;&#x671F;</p>
+<pre><code class="lang-bash"> crontab <span class="hljs-_">-e</span> // &#x7F16;&#x8F91;&#x5B9A;&#x65F6;&#x4EFB;&#x52A1;
+ 0 */12 * * * certbot renew --quiet --renew-hook <span class="hljs-string">&quot;/etc/init.d/nginx reload&quot;</span>
+</code></pre>
+<h3 id="&#x8BC1;&#x4E66;&#x4FDD;&#x5B58;&#x7684;&#x8DEF;&#x5F84;&#x914D;&#x7F6E;nginx&#x9700;&#x8981;&#x7528;&#x5230;&#x7684;">&#x8BC1;&#x4E66;&#x4FDD;&#x5B58;&#x7684;&#x8DEF;&#x5F84;[&#x914D;&#x7F6E;nginx&#x9700;&#x8981;&#x7528;&#x5230;&#x7684;]</h3>
+<pre><code class="lang-bash">/etc/letsencrypt/live/you.cn/fullchain.pem
+/etc/letsencrypt/live/you.cn/privkey.pem
+
+nginx&#x914D;&#x7F6E;&#x6837;&#x4F8B;&#xFF1A;
+server {
+listen 80;
+server_name ippnetwork.com;
+root /usr/share/nginx/www;
+}
+
+server {
+listen *:443 ssl http2;
+root /usr/share/nginx/www;
+server_name ippnetwork.com;
+ssl_certificate /etc/letsencrypt/live/ippnetwork.com/fullchain.pem; 
+ssl_certificate_key  /etc/letsencrypt/live/ippnetwork.com/privkey.pem;
+}
+</code></pre>
+<h3 id="&#x53D6;&#x6D88;&#x8BC1;&#x4E66;">&#x53D6;&#x6D88;&#x8BC1;&#x4E66;</h3>
+<p>&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x4E00;&#x4E0B;&#x547D;&#x4EE4;&#x53D6;&#x6D88;&#x521A;&#x521A;&#x751F;&#x6210;&#x7684;&#x5BC6;&#x5319;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x4EE5;&#x4E0A;&#x7684;&#x53CD;&#x64CD;&#x4F5C;&#xFF1A;</p>
+<pre><code class="lang-bash">certbot revoke --cert-path /etc/letsencrypt/live/you.cn/cert.pem
+certbot delete --cert-name you.cn
+</code></pre>
+<h3 id="&#x6269;&#x5C55;&#x9605;&#x8BFB;">&#x6269;&#x5C55;&#x9605;&#x8BFB;</h3>
+<h4 id="&#x5982;&#x4F55;&#x7533;&#x8BF7;-lets-encrypt-&#x901A;&#x914D;&#x7B26;&#x8BC1;&#x4E66;">&#x5982;&#x4F55;&#x7533;&#x8BF7; Let&#x2019;s Encrypt &#x901A;&#x914D;&#x7B26;&#x8BC1;&#x4E66;</h4>
+<p>&#x4E3A;&#x4E86;&#x5B9E;&#x73B0;&#x901A;&#x914D;&#x7B26;&#x8BC1;&#x4E66;&#xFF0C;Let&#x2019;s Encrypt &#x5BF9; ACME &#x534F;&#x8BAE;&#x7684;&#x5B9E;&#x73B0;&#x8FDB;&#x884C;&#x4E86;&#x5347;&#x7EA7;&#xFF0C;&#x53EA;&#x6709; v2 &#x534F;&#x8BAE;&#x624D;&#x80FD;&#x652F;&#x6301;&#x901A;&#x914D;&#x7B26;&#x8BC1;&#x4E66;&#x3002;</p>
+<p>&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#x4EFB;&#x4F55;&#x5BA2;&#x6237;&#x7AEF;&#x53EA;&#x8981;&#x652F;&#x6301; ACME v2 &#x7248;&#x672C;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x7533;&#x8BF7;&#x901A;&#x914D;&#x7B26;&#x8BC1;&#x4E66;&#x4E86;&#xFF0C;&#x662F;&#x4E0D;&#x662F;&#x5F88;&#x6FC0;&#x52A8;&#x3002;</p>
+<p>&#x8BFB;&#x8005;&#x53EF;&#x4EE5;&#x67E5;&#x770B;&#x4E0B;&#x81EA;&#x5DF1;&#x60EF;&#x7528;&#x7684;&#x5BA2;&#x6237;&#x7AEF;&#x662F;&#x4E0D;&#x662F;&#x652F;&#x6301; ACME v2 &#x7248;&#x672C;&#xFF0C;&#x5B98;&#x65B9;&#x4ECB;&#x7ECD; Certbot 0.22.0 &#x7248;&#x672C;&#x652F;&#x6301;&#x65B0;&#x7684;&#x534F;&#x8BAE;&#x7248;&#x672C;&#xFF0C;&#x6211;&#x7ACB;&#x523B;&#x8FDB;&#x884C;&#x4E86;&#x5347;&#x7EA7;&#xFF1A;</p>
+<pre><code class="lang-bash">./certbot-auto -V
+Upgrading certbot-auto 0.21.1 to 0.22.0...
+Replacing certbot-auto... 
+
+./certbot-auto -V
+certbot 0.22.0
+</code></pre>
+<p>&#x5728;&#x4E86;&#x89E3;&#x8BE5;&#x534F;&#x8BAE;&#x4E4B;&#x524D;&#x6709;&#x51E0;&#x4E2A;&#x6CE8;&#x610F;&#x70B9;&#xFF1A;</p>
+<p>1&#xFF09;&#x5BA2;&#x6237;&#x5728;&#x7533;&#x8BF7; Let&#x2019;s Encrypt &#x8BC1;&#x4E66;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x9700;&#x8981;&#x6821;&#x9A8C;&#x57DF;&#x540D;&#x7684;&#x6240;&#x6709;&#x6743;&#xFF0C;&#x8BC1;&#x660E;&#x64CD;&#x4F5C;&#x8005;&#x6709;&#x6743;&#x5229;&#x4E3A;&#x8BE5;&#x57DF;&#x540D;&#x7533;&#x8BF7;&#x8BC1;&#x4E66;&#xFF0C;&#x76EE;&#x524D;&#x652F;&#x6301;&#x4E09;&#x79CD;&#x9A8C;&#x8BC1;&#x65B9;&#x5F0F;&#xFF1A;</p>
+<ul>
+<li>dns-01&#xFF1A;&#x7ED9;&#x57DF;&#x540D;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A; DNS TXT &#x8BB0;&#x5F55;&#x3002;</li>
+<li>http-01&#xFF1A;&#x5728;&#x57DF;&#x540D;&#x5BF9;&#x5E94;&#x7684; Web &#x670D;&#x52A1;&#x5668;&#x4E0B;&#x653E;&#x7F6E;&#x4E00;&#x4E2A; HTTP well-known URL &#x8D44;&#x6E90;&#x6587;&#x4EF6;&#x3002;</li>
+<li>tls-sni-01&#xFF1A;&#x5728;&#x57DF;&#x540D;&#x5BF9;&#x5E94;&#x7684; Web &#x670D;&#x52A1;&#x5668;&#x4E0B;&#x653E;&#x7F6E;&#x4E00;&#x4E2A; HTTPS well-known URL &#x8D44;&#x6E90;&#x6587;&#x4EF6;&#x3002;</li>
+</ul>
+<p>&#x800C;&#x7533;&#x8BF7;&#x901A;&#x914D;&#x7B26;&#x8BC1;&#x4E66;&#xFF0C;&#x53EA;&#x80FD;&#x4F7F;&#x7528; dns-01 &#x7684;&#x65B9;&#x5F0F;</p>
+<p>2&#xFF09;ACME v2 &#x548C; v1 &#x534F;&#x8BAE;&#x662F;&#x4E92;&#x76F8;&#x4E0D;&#x517C;&#x5BB9;&#x7684;&#xFF0C;&#x4E3A;&#x4E86;&#x4F7F;&#x7528; v2 &#x7248;&#x672C;&#xFF0C;&#x5BA2;&#x6237;&#x7AEF;&#x9700;&#x8981;&#x521B;&#x5EFA;&#x53E6;&#x5916;&#x4E00;&#x4E2A;&#x8D26;&#x6237;&#xFF08;&#x4EE3;&#x8868;&#x5BA2;&#x6237;&#x7AEF;&#x64CD;&#x4F5C;&#x8005;&#xFF09;&#xFF0C;&#x4EE5; Certbot &#x5BA2;&#x6237;&#x7AEF;&#x4E3A;&#x4F8B;&#xFF0C;&#x5927;&#x5BB6;&#x53EF;&#x4EE5;&#x67E5;&#x770B;&#xFF1A;</p>
+<pre><code class="lang-bash">$ tree /etc/letsencrypt/accounts 
+.
+&#x251C;&#x2500;&#x2500; acme-staging.api.letsencrypt.org
+&#x251C;&#x2500;&#x2500; acme-v01.api.letsencrypt.org
+&#x2514;&#x2500;&#x2500; acme-v02.api.letsencrypt.org
+</code></pre>
+<p>3&#xFF09;Enumerable Orders &#x548C;&#x9650;&#x5236;</p>
+<p>&#x4E3A;&#x4E86;&#x5B9E;&#x73B0;&#x901A;&#x914D;&#x7B26;&#x8BC1;&#x4E66;&#xFF0C;Let&apos;s Encrypt  &#x5728;&#x7533;&#x8BF7;&#x8005;&#x8EAB;&#x4EFD;&#x6821;&#x9A8C;&#x4E0A;&#x505A;&#x4E86;&#x5F88;&#x5927;&#x7684;&#x6539;&#x53D8;&#x3002;</p>
+<ul>
+<li>&#x6709;&#x4E86;&#x8BA2;&#x5355; ID &#x7684;&#x6982;&#x5FF5;&#xFF0C;&#x4E3B;&#x8981;&#x662F;&#x4E3A;&#x4E86;&#x8FFD;&#x8E2A;&#x901A;&#x914D;&#x7B26;&#x57DF;&#x540D;&#x3002;</li>
+<li>&#x7533;&#x8BF7;&#x9650;&#x5236;&#xFF0C;&#x5728; V1 &#x7248;&#x672C;&#xFF0C;Let&apos;s Encrypt &#x4E3A;&#x4E86;&#x907F;&#x514D;&#x6EE5;&#x64CD;&#x4F5C;&#xFF0C;&#x5BF9;&#x7533;&#x8BF7;&#x8BC1;&#x4E66;&#x6709;&#x4E00;&#x4E9B;&#x9650;&#x5236;&#xFF08;&#x5F88;&#x96BE;&#x5B66;&#x4E60;&#xFF0C;&#x4F46;&#x662F;&#x6B63;&#x5E38;&#x4F7F;&#x7528;&#x4E0D;&#x4F1A;&#x9047;&#x5230;&#x8BE5;&#x9650;&#x5236;&#xFF09;&#x3002;&#x800C; v2 &#x7248;&#x672C;&#xFF0C;&#x5BF9;&#x4E8E;&#x901A;&#x914D;&#x7B26;&#x8BC1;&#x4E66;&#xFF0C;&#x591A;&#x4E86;&#x4E00;&#x4E2A;&#x9650;&#x5236;&#xFF0C;New Orders per Account&#xFF08;&#x6BCF;&#x4E2A;&#x8BC1;&#x4E66;&#x8BA2;&#x5355;&#x6570;&#x9650;&#x5236;&#xFF09;&#x3002;</li>
+</ul>
+<p>&#x8FD9;&#x4E24;&#x4E2A;&#x7EC6;&#x8282;&#xFF0C;&#x540E;&#x7EED;&#x518D;&#x4ED4;&#x7EC6;&#x7814;&#x7A76;&#x3002;</p>
+<h4 id="&#x5B9E;&#x8DF5;">&#x5B9E;&#x8DF5;</h4>
+<p>&#x6211;&#x8FEB;&#x4E0D;&#x53CA;&#x5F85;&#x60F3;&#x4F7F;&#x7528; Certbot &#x7533;&#x8BF7;&#x901A;&#x914D;&#x7B26;&#x8BC1;&#x4E66;&#xFF0C;&#x5347;&#x7EA7; Certbot &#x7248;&#x672C;&#x8FD0;&#x884C;&#x4E0B;&#x5217;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code class="lang-bash"> ./certbot-auto certonly  <span class="hljs-_">-d</span> *.newyingyong.cn --manual --preferred-challenges dns --server https://acme-v02.api.letsencrypt.org/directory
+</code></pre>
+<p>&#x4ECB;&#x7ECD;&#x4E0B;&#x76F8;&#x5173;&#x53C2;&#x6570;&#xFF1A;</p>
+<ul>
+<li>certonly&#xFF0C;&#x8868;&#x793A;&#x5B89;&#x88C5;&#x6A21;&#x5F0F;&#xFF0C;Certbot &#x6709;&#x5B89;&#x88C5;&#x6A21;&#x5F0F;&#x548C;&#x9A8C;&#x8BC1;&#x6A21;&#x5F0F;&#x4E24;&#x79CD;&#x7C7B;&#x578B;&#x7684;&#x63D2;&#x4EF6;&#x3002;</li>
+<li>--manual  &#x8868;&#x793A;&#x624B;&#x52A8;&#x5B89;&#x88C5;&#x63D2;&#x4EF6;&#xFF0C;Certbot &#x6709;&#x5F88;&#x591A;&#x63D2;&#x4EF6;&#xFF0C;&#x4E0D;&#x540C;&#x7684;&#x63D2;&#x4EF6;&#x90FD;&#x53EF;&#x4EE5;&#x7533;&#x8BF7;&#x8BC1;&#x4E66;&#xFF0C;&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x9700;&#x8981;&#x81EA;&#x884C;&#x9009;&#x62E9;</li>
+<li>-d &#x4E3A;&#x90A3;&#x4E9B;&#x4E3B;&#x673A;&#x7533;&#x8BF7;&#x8BC1;&#x4E66;&#xFF0C;&#x5982;&#x679C;&#x662F;&#x901A;&#x914D;&#x7B26;&#xFF0C;&#x8F93;&#x5165; *.newyingyong.cn&#xFF08;&#x53EF;&#x4EE5;&#x66FF;&#x6362;&#x4E3A;&#x4F60;&#x81EA;&#x5DF1;&#x7684;&#x57DF;&#x540D;&#xFF09;</li>
+<li>--preferred-challenges dns&#xFF0C;&#x4F7F;&#x7528; DNS &#x65B9;&#x5F0F;&#x6821;&#x9A8C;&#x57DF;&#x540D;&#x6240;&#x6709;&#x6743;</li>
+<li>--server&#xFF0C;Let&apos;s Encrypt ACME v2 &#x7248;&#x672C;&#x4F7F;&#x7528;&#x7684;&#x670D;&#x52A1;&#x5668;&#x4E0D;&#x540C;&#x4E8E; v1 &#x7248;&#x672C;&#xFF0C;&#x9700;&#x8981;&#x663E;&#x793A;&#x6307;&#x5B9A;&#x3002;</li>
+</ul>
+<p>&#x63A5;&#x4E0B;&#x53BB;&#x5C31;&#x662F;&#x547D;&#x4EE4;&#x884C;&#x7684;&#x8F93;&#x51FA;&#xFF1A;</p>
+<pre><code class="lang-bash">Saving debug <span class="hljs-built_in">log</span> to /var/<span class="hljs-built_in">log</span>/letsencrypt/letsencrypt.log
+Plugins selected: Authenticator manual, Installer None
+Enter email address (used <span class="hljs-keyword">for</span> urgent renewal and security notices) (Enter <span class="hljs-string">&apos;c&apos;</span> to
+cancel): ywdblog@gmail.com
+
+-------------------------------------------------------------------------------
+Please <span class="hljs-built_in">read</span> the Terms of Service at
+https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf. You must
+agree <span class="hljs-keyword">in</span> order to register with the ACME server at
+https://acme-v02.api.letsencrypt.org/directory
+-------------------------------------------------------------------------------
+(A)gree/(C)ancel: A
+
+Plugins selected: Authenticator manual, Installer None
+Obtaining a new certificate
+Performing the following challenges:
+dns-01 challenge <span class="hljs-keyword">for</span> newyingyong.cn
+
+-------------------------------------------------------------------------------
+NOTE: The IP of this machine will be publicly logged as having requested this
+certificate. If you<span class="hljs-string">&apos;re running certbot in manual mode on a machine that is not
+your server, please ensure you&apos;</span>re okay with that.
+
+Are you OK with your IP being logged?
+-------------------------------------------------------------------------------
+(Y)es/(N)o: y
+</code></pre>
+<p>&#x4E0A;&#x8FF0;&#x6709;&#x4E24;&#x4E2A;&#x4EA4;&#x4E92;&#x5F0F;&#x7684;&#x63D0;&#x793A;&#xFF1A;</p>
+<ul>
+<li>&#x662F;&#x5426;&#x540C;&#x610F; Let&apos;s Encrypt &#x534F;&#x8BAE;&#x8981;&#x6C42;</li>
+<li>&#x8BE2;&#x95EE;&#x662F;&#x5426;&#x5BF9;&#x57DF;&#x540D;&#x548C;&#x673A;&#x5668;&#xFF08;IP&#xFF09;&#x8FDB;&#x884C;&#x7ED1;&#x5B9A;</li>
+</ul>
+<p>&#x786E;&#x8BA4;&#x540C;&#x610F;&#x624D;&#x80FD;&#x7EE7;&#x7EED;&#x3002;</p>
+<p>&#x7EE7;&#x7EED;&#x67E5;&#x770B;&#x547D;&#x4EE4;&#x884C;&#x7684;&#x8F93;&#x51FA;&#xFF0C;&#x975E;&#x5E38;&#x5173;&#x952E;&#xFF1A;</p>
+<pre><code class="lang-bash">-------------------------------------------------------------------------------
+Please deploy a DNS TXT record under the name
+_acme-challenge.newyingyong.cn with the following value:
+
+2_8KBE_jXH8nYZ2unEViIbW52LhIqxkg6i9mcwsRvhQ
+
+Before continuing, verify the record is deployed.
+-------------------------------------------------------------------------------
+Press Enter to Continue
+Waiting <span class="hljs-keyword">for</span> verification...
+Cleaning up challenges
+</code></pre>
+<p>&#x8981;&#x6C42;&#x914D;&#x7F6E; DNS TXT &#x8BB0;&#x5F55;&#xFF0C;&#x4ECE;&#x800C;&#x6821;&#x9A8C;&#x57DF;&#x540D;&#x6240;&#x6709;&#x6743;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x5224;&#x65AD;&#x8BC1;&#x4E66;&#x7533;&#x8BF7;&#x8005;&#x662F;&#x5426;&#x6709;&#x57DF;&#x540D;&#x7684;&#x6240;&#x6709;&#x6743;&#x3002;</p>
+<p>&#x4E0A;&#x9762;&#x8F93;&#x51FA;&#x8981;&#x6C42;&#x7ED9; _acme-challenge.newyingyong.cn  &#x914D;&#x7F6E;&#x4E00;&#x6761; TXT &#x8BB0;&#x5F55;&#xFF0C;&#x5728;&#x6CA1;&#x6709;&#x786E;&#x8BA4; TXT &#x8BB0;&#x5F55;&#x751F;&#x6548;&#x4E4B;&#x524D;&#x4E0D;&#x8981;&#x56DE;&#x8F66;&#x6267;&#x884C;&#x3002;</p>
+<p>&#x6211;&#x4F7F;&#x7528;&#x7684;&#x662F;&#x963F;&#x91CC;&#x4E91;&#x7684;&#x57DF;&#x540D;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x767B;&#x5F55;&#x63A7;&#x5236;&#x53F0;&#x64CD;&#x4F5C;&#x5982;&#x4E0B;&#x56FE;&#xFF1A;</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/234392-69d92733b0c8f97e.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp" alt="img"></p>
+<p>https.png</p>
+<p>&#x7136;&#x540E;&#x8F93;&#x5165;&#x4E0B;&#x5217;&#x547D;&#x4EE4;&#x786E;&#x8BA4; TXT &#x8BB0;&#x5F55;&#x662F;&#x5426;&#x751F;&#x6548;&#xFF1A;</p>
+<pre><code class="lang-bash">$ dig  -t txt  _acme-challenge.newyingyong.cn @8.8.8.8    
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;_acme-challenge.newyingyong.cn.        IN      TXT
+
+;; ANSWER SECTION:
+_acme-challenge.newyingyong.cn. 599 IN  TXT     <span class="hljs-string">&quot;2_8KBE_jXH8nYZ2unEViIbW52LhIqxkg6i9mcwsRvhQ&quot;</span>
+</code></pre>
+<p>&#x786E;&#x8BA4;&#x751F;&#x6548;&#x540E;&#xFF0C;&#x56DE;&#x8F66;&#x6267;&#x884C;&#xFF0C;&#x8F93;&#x51FA;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-bash">IMPORTANT NOTES:
+ - Congratulations! Your certificate and chain have been saved at:
+   /etc/letsencrypt/live/newyingyong.cn/fullchain.pem
+   Your key file has been saved at:
+   /etc/letsencrypt/live/newyingyong.cn/privkey.pem
+   Your cert will expire on 2018-06-12. To obtain a new or tweaked
+   version of this certificate <span class="hljs-keyword">in</span> the future, simply run certbot-auto
+   again. To non-interactively renew *all* of your certificates, run
+   <span class="hljs-string">&quot;certbot-auto renew&quot;</span>
+ - If you like Certbot, please consider supporting our work by:
+
+   Donating to ISRG / Let<span class="hljs-string">&apos;s Encrypt:   https://letsencrypt.org/donate
+   Donating to EFF:                    https://eff.org/donate-le
+</span></code></pre>
+<p>&#x606D;&#x559C;&#x60A8;&#xFF0C;&#x8BC1;&#x4E66;&#x7533;&#x8BF7;&#x6210;&#x529F;&#xFF0C;&#x8BC1;&#x4E66;&#x548C;&#x5BC6;&#x94A5;&#x4FDD;&#x5B58;&#x5728;&#x4E0B;&#x5217;&#x76EE;&#x5F55;&#xFF1A;</p>
+<pre><code class="lang-bash">$ tree /etc/letsencrypt/archive/newyingyong.cn 
+.
+&#x251C;&#x2500;&#x2500; cert1.pem
+&#x251C;&#x2500;&#x2500; chain1.pem
+&#x251C;&#x2500;&#x2500; fullchain1.pem
+&#x2514;&#x2500;&#x2500; privkey1.pem
+</code></pre>
+<p>&#x7136;&#x540E;&#x6821;&#x9A8C;&#x8BC1;&#x4E66;&#x4FE1;&#x606F;&#xFF0C;&#x8F93;&#x5165;&#x5982;&#x4E0B;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code class="lang-bash">openssl x509 -in  /etc/letsencrypt/archive/newyingyong.cn/cert1.pem -noout -text
+</code></pre>
+<p>&#x5173;&#x952E;&#x8F93;&#x51FA;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-bash">X509v3 Subject Alternative Name: 
+    DNS:*.newyingyong.cn
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="nginx.html#扩展阅读" class="navigation navigation-prev " aria-label="Previous page: nginx扩展阅读">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="letsencrypt.html#安装" class="navigation navigation-next " aria-label="Next page: letsencrypt安装">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"ssl证书","level":"4.1","depth":1,"next":{"title":"letsencrypt安装","level":"4.1.1","depth":2,"anchor":"#安装","path":"content/devops/letsencrypt.md","ref":"./content/devops/letsencrypt.md#安装","articles":[]},"previous":{"title":"nginx扩展阅读","level":"3.1.3","depth":2,"anchor":"#扩展阅读","path":"content/devops/nginx.md","ref":"./content/devops/nginx.md#扩展阅读","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"content/devops/letsencrypt.md","mtime":"2019-12-03T10:42:02.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-14T06:37:46.252Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
